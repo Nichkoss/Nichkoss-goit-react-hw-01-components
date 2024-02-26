@@ -3,7 +3,7 @@ import {
   TitleTable,
   TableElement,
   TextTable,
-} from './TransactionHistory.styled';
+} from './TransactionHistory.styled'
 
 export const TransactionHistory = ({ items }) => {
   return (
@@ -25,8 +25,8 @@ export const TransactionHistory = ({ items }) => {
               <TextTable>{currency}</TextTable>
             </TableElement>
           </tbody>
-        );
+        )
       })}
     </TableTransaction>
-  );
-};
+  )
+}

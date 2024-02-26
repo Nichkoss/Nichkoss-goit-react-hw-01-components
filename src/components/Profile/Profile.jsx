@@ -1,5 +1,5 @@
-import styles from './Profile.module.scss';
-import PropTypes from 'prop-types';
+import styles from './Profile.module.scss'
+import PropTypes from 'prop-types'
 
 
 export const Profile = ({ username, tag, location, avatar, stats }) => {
@@ -27,8 +27,8 @@ export const Profile = ({ username, tag, location, avatar, stats }) => {
           </li>
         </ul>
       </div>
-    );
-};
+    )
+}
 
 Profile.propTypes = {
   username: PropTypes.string.isRequired,
@@ -36,4 +36,4 @@ Profile.propTypes = {
   location: PropTypes.string.isRequired,
   avatar: PropTypes.string.isRequired,
   stats: PropTypes.objectOf(PropTypes.number.isRequired).isRequired,
-};
+}

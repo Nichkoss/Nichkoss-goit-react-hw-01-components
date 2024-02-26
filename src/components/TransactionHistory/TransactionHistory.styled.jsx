@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const TableTransaction = styled.table`
   margin-bottom: 50px;
@@ -11,7 +11,7 @@ export const TableTransaction = styled.table`
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-`;
+`
 
 export const TitleTable = styled.th`
   padding: 8px;
@@ -20,11 +20,11 @@ export const TitleTable = styled.th`
   font-weight: bold;
   color: #4f2ee8;
   font-size: 18px;
-`;
+`
 
 export const TableElement = styled.tr`
   background-color: #f9f9f9;
-`;
+`
 
 export const TextTable = styled.td`
   text-align: center;
@@ -33,4 +33,4 @@ export const TextTable = styled.td`
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.32px;
-`;
+`

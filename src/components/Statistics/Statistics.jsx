@@ -5,7 +5,7 @@ import {
   StatItem,
   Label,
   Percentage,
-} from './Statistics.styled';
+} from './Statistics.styled'
 
 export const Statistics = ({ title = 'Upload stats', stats }) => {
   return (
@@ -19,9 +19,9 @@ export const Statistics = ({ title = 'Upload stats', stats }) => {
               <Label>{label}</Label>
               <Percentage>{percentage}</Percentage>
             </StatItem>
-          );
+          )
         })}
       </StatList>
     </StatSection>
-  );
-};
+  )
+}

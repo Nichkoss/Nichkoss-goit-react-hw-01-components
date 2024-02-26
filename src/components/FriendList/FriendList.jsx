@@ -1,5 +1,5 @@
-import styles from './FriendList.module.scss';
-import PropTypes from 'prop-types';
+import styles from './FriendList.module.scss'
+import PropTypes from 'prop-types'
 
 export const FriendList = ({ friends }) => {
   return (
@@ -20,11 +20,11 @@ export const FriendList = ({ friends }) => {
             />
             <p className={styles.name}>{name}</p>
           </li>
-        );
+        )
       })}
     </ul>
-  );
-};
+  )
+}
 
 FriendList.propTypes = {
   friends: PropTypes.arrayOf(
@@ -34,5 +34,5 @@ FriendList.propTypes = {
       isOnline: PropTypes.bool.isRequired,
       id: PropTypes.number.isRequired,
     }).isRequired
-  ),
-};
+  )
+}

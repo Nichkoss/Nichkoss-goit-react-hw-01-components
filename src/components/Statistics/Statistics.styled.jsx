@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const StatSection = styled.section`
   max-width: 400px;
@@ -11,7 +11,7 @@ export const StatSection = styled.section`
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-`;
+`
 
 export const Title = styled.h2`
   color: #4f2ee8;
@@ -24,7 +24,7 @@ export const Title = styled.h2`
 
   display: flex;
   justify-content: center;
-`;
+`
 
 export const StatList = styled.ul`
   display: flex;
@@ -37,7 +37,7 @@ export const StatList = styled.ul`
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-`;
+`
 
 export const StatItem = styled.li`
   width: 100%;
@@ -48,7 +48,7 @@ export const StatItem = styled.li`
   justify-content: center;
   height: 70px;
   background: ${getRandomHexColor};
-`;
+`
 
 export const Label = styled.span`
   color: #434455;
@@ -57,7 +57,7 @@ export const Label = styled.span`
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.32px;
-`;
+`
 
 export const Percentage = styled.span`
   color: #434455;
@@ -66,7 +66,7 @@ export const Percentage = styled.span`
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.32px;
-`;
+`
 
 function getRandomHexColor() {
   return `#${Math.floor(Math.random() * 16777215)
